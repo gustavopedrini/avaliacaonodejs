@@ -7,12 +7,12 @@ const router = express.Router()
 router.get('/api/operacoes', (_, res) => {
     res.json({
         message: `As OPERACOES disponíveis são:
-        SOMAR: /api/somar
-        SUBTRAIR: /api/subtrair
-        DIVIDIR: /api/dividir
-        MULTIPLICAR: /api/multiplicar
-        RADICIAÇÃO: /api/radiciacao
-        POTENCIAÇÃO: /api/potenciacao`
+        - SOMAR: /api/somar
+        - SUBTRAIR: /api/subtrair
+        - DIVIDIR: /api/dividir
+        - MULTIPLICAR: /api/multiplicar
+        - RADICIAÇÃO: /api/radiciacao
+        - POTENCIAÇÃO: /api/potenciacao`
     })
 })
 

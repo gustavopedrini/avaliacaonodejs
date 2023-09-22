@@ -1,7 +1,7 @@
 const { describe, expect, it } = require('@jest/globals');
 const ServiceAvaliacao = require('../src/services/avaliacao.js')
 
-describe('Teste da avaliacao', () => {
+describe('Testes da avaliacao', () => {
     const service = new ServiceAvaliacao()
 
     beforeAll(async () => {
